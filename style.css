@@ -86,3 +86,16 @@ footer {
 input {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  section {
+    width: auto;
+  }
+  .botaoInput {
+    height: 30px;
+  }
+  .botoes {
+    align-items: center;
+    justify-content: center;
+  }
+}
